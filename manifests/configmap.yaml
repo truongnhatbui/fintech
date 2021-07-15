@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
-  version: alpine
+  version: fintech
 kind: ConfigMap
 metadata:
-  name: nginx-version
-  namespace: demo
+  name: fintech
+  namespace: default

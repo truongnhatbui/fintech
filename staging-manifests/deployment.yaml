@@ -2,16 +2,16 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: nginx
-    tag: alpine
-  name: nginx-alpine
-  namespace: demo
+    app: fintech
+    tag: fintech
+  name: fintech
+  namespace: default
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx
-      tag: alpine
+      app: fintech
+      tag: fintech
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -20,10 +20,10 @@ spec:
   template:
     metadata:
       labels:
-        app: nginx
-        tag: alpine
+        app: fintech
+        tag: fintech
     spec:
       containers:
-      - image: nginx:alpine
+      - image: buinhattruong/fintech:v1.0.0
         imagePullPolicy: IfNotPresent
-        name: nginx-alpine
+        name: fintech

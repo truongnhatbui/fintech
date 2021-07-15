@@ -3,5 +3,5 @@ data:
   version: alpine
 kind: ConfigMap
 metadata:
-  name: nginx-version
-  namespace: demo
+  name: fintech
+  namespace: default

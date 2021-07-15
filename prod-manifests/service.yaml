@@ -2,16 +2,16 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: nginx
-    tag: alpine
-  name: nginx-alpine
-  namespace: demo
+    app: fintech
+    tag: fintech
+  name: fintech
+  namespace: default
 spec:
   ports:
   - port: 8111
     protocol: TCP
     targetPort: 8111
   selector:
-    app: nginx
-    tag: alpine
+    app: fintech
+    tag: fintech
   type: ClusterIP
