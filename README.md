@@ -10,7 +10,7 @@ This project is a brief example of a [React](https://www.truongbui.com/posts/rea
 
 [Azure DevOps](https://dev.azure.com/truongbn/FinTech)
 
-[(Tools, Environment & Dependencies)](https://www.truongbui.com/posts/introduction-cloud-native)
+[Tools, Environment & Dependencies](https://www.truongbui.com/posts/introduction-cloud-native)
 
 [Design & Architecture Considerations](https://www.truongbui.com/posts/architecture-consideration-cloud-native-applications)
 
